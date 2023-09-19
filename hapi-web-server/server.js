@@ -6,7 +6,7 @@ const init = async () => {
         host: 'localhost',
     });
 
-    await.server.start();
+    await server.start();
     console.log(`Server berjalan pada ${server.info.uri}`);
 };
 
